@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+    <meta content="width=device-width,user-scalable=no" name="viewport" />
+    <link href="css/dl_app.css" rel="stylesheet" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <title></title>
+    <script>
+        $(document).ready(function () {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                $(".div_bg").show();
+                $(".cssDown").click(function(){return false;})
+            }
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="div_bg">
+        <div class="cssTips">
+              <img src="images/museum_tips.jpg" />
+        </div>
+    </div>
+    <div class="pading">
+        <div class="margin">
+            <img src="images/museum.jpg" class="Img" />
+            <p class="Log">
+                海关首个以海关历史为主题的手机应用程序面世了！
+            </p>
+            <p class="cssLog">
+                &nbsp;&nbsp;&nbsp;&nbsp;《粤海关旧址》APP掌上博物馆手机应用程序，为您搭建一个随时随地了解、畅游中国海关博物馆广州分管的平台。
+通过该应用程序，您可以了解中国海关的发展历史、馆内重要藏品概况、粤海关“大钟楼”的各种故事、开放时间和交通指南等公众信息。
+还可以随时聆听动人的大钟楼钟声，并与小伙伴们分享。
+            </p>
+	<p class="cssLog">
+&nbsp;&nbsp;&nbsp;&nbsp;赶快通过二维码或点击下载吧！百年钟楼的魅力将在您的指尖展现！
+               
+                
+            </p>
+            <a href=" http://211.155.17.207/museum/download/clocktower.apk" class="cssDown" >点  击  下 载</a>
+        </div>
+        
+    </div>
+</body>
+</html>

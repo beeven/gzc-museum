@@ -1,0 +1,63 @@
+﻿body {
+    font-size: 1em;
+	font-family: 宋体;
+	background: #013660;
+}
+
+.pading {
+    border: 1px solid #0C8EBF;
+    margin:8px;
+   
+}
+
+.margin {
+    margin:20px;
+}
+.Log {
+    color:#fff;
+    text-align:center;
+    line-height:1.8em;
+}
+.cssLog {
+    color:#fff;
+    text-align:left;
+    line-height:1.2em;
+}
+.Img {
+    width:100%;
+
+}
+.cssDown {
+    width:100%;
+    margin-top:20px;
+    height:50px;
+    line-height:50px;
+    cursor:pointer;
+    border-radius: 2px;
+    background:#0C8EBF;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    display:block;
+    border:none;
+    text-decoration:none;
+}
+
+.div_bg {
+    display:none;
+    position:fixed;
+    z-index:15;
+    background-color:rgba(129, 123, 123, 0.48);
+    width:100%;
+    top:0;
+    bottom:0;
+
+    
+}
+.cssTips {
+    z-index:22;
+}
+
+ .cssTips img {
+    width:100%;
+ }
